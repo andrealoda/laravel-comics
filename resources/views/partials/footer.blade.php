@@ -1,32 +1,52 @@
-<nav class="navbar navbar-expand-lg bg-dark p-4">
-    <div class="container-fluid">
-        <button type="button" class="btn btn-outline-primary text-white">SIGN-UP NOW</button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto d-flex align-items-center gap-3">
-                <li>
-                    <span>FOLLOW US</span>
-                </li>
+<div class="footer px-4">
 
-                <li>
-                    <img src="{{ asset('img/footer-facebook.png') }}" alt="Facebook" class="footer-social-icon" />
-                </li>
-                <li>
-                    <img src="{{ asset('img/footer-twitter.png') }}" alt="Twitter" class="footer-social-icon" />
-                </li>
+    <img src="{{ asset('img/dc-logo-bg.png') }}" alt="DC Logo" class="footer-logo" id="dc-logo-footer"/>
+    <div class="footer-links d-flex justify-content-start gap-5">
+        <div class="footer-column">
+            <h5>DC COMICS</h5>
+            <ul class="list-unstyled">
+                <li><a href="#">Characters</a></li>
+                <li><a href="#">Comics</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
 
-                <li>
-                    <img src="{{ asset('img/footer-pinterest.png') }}" alt="Pinterest" class="footer-social-icon" />
-                </li>
-                <li>
-                    <img src="{{ asset('img/footer-youtube.png') }}" alt="YouTube" class="footer-social-icon" />
-                </li>
+            <h5>SHOP</h5>
+            <ul class="list-unstyled">
+                <li><a href="#">Shop DC</a></li>
+                <li><a href="#">Shop DC Collectibles</a></li>
+            </ul>
+        </div>
 
+        <div class="footer-column">
+            <h5>DC</h5>
+            <ul class="list-unstyled">
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Privacy policy (New)</a></li>
+                <li><a href="#">Ad Choices</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Subscriptions</a></li>
+                <li><a href="#">Talent Workshops</a></li>
+                <li><a href="#">CPSC Certificates</a></li>
+                <li><a href="#">Ratings</a></li>
+                <li><a href="#">Shop Help</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
 
-
-
-
-
+        <div class="footer-column">
+            <h5>SITES</h5>
+            <ul class="list-unstyled">
+                <li><a href="#">DC</a></li>
+                <li><a href="#">MAD Magazine</a></li>
+                <li><a href="#">DC Kids</a></li>
+                <li><a href="#">DC Universe</a></li>
+                <li><a href="#">DC Power Visa</a></li>
             </ul>
         </div>
     </div>
-</nav>
+</div>
