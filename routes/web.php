@@ -7,6 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/', function () {
-    $comics = require database_path('comics.php');
-    return view('index', ['comics' => $comics]);
+    return view('index', ['comics' => config('comics')]);
 });

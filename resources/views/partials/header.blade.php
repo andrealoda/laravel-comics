@@ -14,7 +14,7 @@ $menuItems = [
 @endphp
 
 
-<nav class="navbar navbar-expand-lg bg-white mx-4">
+<nav class="navbar navbar-expand-lg bg-white px-4">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="{{ asset('img/dc-logo.png') }}" alt="" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

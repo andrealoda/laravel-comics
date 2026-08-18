@@ -9,20 +9,23 @@
 </head>
 
 <body>
+    <div class="container">
 
-    {{-- Navbar globale --}}
-    @include('partials.header')
 
-    <main style="padding: 20px;">
-        @yield('content')
-    </main>
+        {{-- Navbar globale --}}
+        @include('partials.header')
+
+        <main>
+            @yield('content')
+        </main>
 
         {{-- Footer globale --}}
-    @include('partials.footer')
+        @include('partials.footer')
 
 
         {{-- CTA globale --}}
-    @include('partials.cta')
+        @include('partials.cta')
+    </div>
 </body>
 
 </html>
