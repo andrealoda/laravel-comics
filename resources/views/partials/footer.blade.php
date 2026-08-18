@@ -1,4 +1,4 @@
-<div class="footer px-4">
+<div class="footer px-4" style="background-image: url('img/footer-bg.jpg');">
 
     <img src="{{ asset('img/dc-logo-bg.png') }}" alt="DC Logo" class="footer-logo" id="dc-logo-footer"/>
     <div class="footer-links d-flex justify-content-start gap-5">

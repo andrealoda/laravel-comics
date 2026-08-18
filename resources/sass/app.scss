@@ -32,13 +32,14 @@
 }
 
 .footer {
-    background-image: url('../img/footer-bg.jpg');
+    background-size: cover; // l'immagine copre tutto il div
+    background-position: center; // centra l'immagine
+    background-repeat: no-repeat; // evita che si ripeta
     max-height: 500px;
-    background-size: cover;
-    background-position: center;
     padding: 20px 0;
     position: relative;
-
+    overflow: hidden;
+    z-index: 0;
 
     h5 {
         color: white;
@@ -60,8 +61,8 @@
 
 #dc-logo-footer {
     position: absolute;
-    overflow: hidden;
+
     top: -50px;
-    left: 50%;
+    right: 5%;
     z-index: -1;
 }
