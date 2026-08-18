@@ -1,4 +1,4 @@
-<div class="bg-primary my-3 py-4">
+<div class="bg-primary mt-3 py-4">
     <ul class="d-flex justify-content-center list-unstyled mb-0">
         <li class="d-flex align-items-center mx-3 text-white">
             <a href="#" class="text-decoration-none text-white">
