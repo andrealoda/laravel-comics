@@ -19,6 +19,9 @@
             @yield('content')
         </main>
 
+        {{-- Blue bar globale --}}
+        @include('partials.blueBar')
+
         {{-- Footer globale --}}
         @include('partials.footer')
 
