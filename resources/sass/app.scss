@@ -31,6 +31,11 @@
     /* mostra la parte superiore dell'immagine */
 }
 
+.negative-translation {
+    transform: translateY(-75px);
+}
+
+
 .footer {
     background-size: cover; // l'immagine copre tutto il div
     background-position: center; // centra l'immagine
