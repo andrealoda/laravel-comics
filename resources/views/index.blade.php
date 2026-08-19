@@ -15,7 +15,7 @@
     </a>
     @foreach ($comics as $comic)
     <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
-        <x-card :comic="$comic" />
+        <x-card :image="$comic['thumb']" :title="$comic['title']" />
     </div>
     @endforeach
 </div>
