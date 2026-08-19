@@ -3,9 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('index', ['comics' => config('comics')]);
+    $comics = config('comics');
+    return view('index', compact('comics'));
 })->name('home');
 
 Route::get('/team', function () {
-    return view('team', ['team' => config('team')]);
+    $team = config('team');
+    return view('team', compact('team'));
 })->name('team');
