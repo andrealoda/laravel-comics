@@ -15,7 +15,7 @@
     </a>
     @foreach ($comics as $comic)
     <div class="col-6 col-md-4 col-lg-2 d-flex justify-content-center">
-        @include('partials.card', ['comic' => $comic])
+        <x-card :comic="$comic" />
     </div>
     @endforeach
 </div>
